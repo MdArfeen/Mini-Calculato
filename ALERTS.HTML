@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Showing Alerts</title>
+</head>
+<body>
+    <button onclick="showFirstName()">Arfeen</button>
+    <button onclick="showLastName()">Hussain</button>
+    <button onclick="showFullName()">Arfeen Hussain</button>
+    <script type="text/javascript">
+        function showFirstName() {
+            // Alert with your first name
+            alert('YourFirstName'); // Replace 'YourFirstName' with your actual first name
+        }
+
+        function showLastName() {
+            // Alert with your last name
+            alert('YourLastName'); // Replace 'YourLastName' with your actual last name
+        }
+
+        function showFullName() {
+            // Alert with your full name (firstname lastname)
+            var firstName = 'YourFirstName'; // Replace 'YourFirstName' with your actual first name
+            var lastName = 'YourLastName'; // Replace 'YourLastName' with your actual last name
+            var fullName = firstName + ' ' + lastName;
+            alert(fullName);
+        }
+    </script>
+</body>
+</html>
